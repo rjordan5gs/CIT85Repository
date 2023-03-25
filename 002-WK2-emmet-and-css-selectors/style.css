@@ -1,0 +1,11 @@
+ul li:first-child {
+    color: red
+  }
+  
+  ul li.blue-item {
+    color: blue
+  }
+  
+  #green-item {
+    color: green
+  }
