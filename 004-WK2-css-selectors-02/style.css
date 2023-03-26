@@ -1,11 +1,28 @@
-ul li:first-child {
-    color: red
-  }
-  
-  ul li.blue-item {
-    color: blue
-  }
-  
-  #green-item {
-    color: green
-  }
+li:first-child {
+  color: red;
+}
+
+li:last-child {
+  color: yellow;
+}
+
+li:nth-child(even) {
+  background-color: green;
+}
+
+li:nth-child(odd) {
+  background-color: aqua;
+}
+
+li:nth-child(3) {
+  color: blue;
+}
+
+li:nth-child(3n+2) {
+  color: orange;
+}
+
+article:only-child {
+  background-color: purple;
+}
+/* Odd, Even, First, Last, nth-child(an+b) Complete. Make sure to check the index.html and test code before turning in.
