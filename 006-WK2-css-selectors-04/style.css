@@ -1,11 +1,21 @@
-ul li:first-child {
-    color: red
-  }
-  
-  ul li.blue-item {
-    color: blue
-  }
-  
-  #green-item {
-    color: green
-  }
+body {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 36px;
+}
+
+div p {
+  color: red;
+}
+
+div ~ p {
+  color: blue;
+}
+
+div > p {
+  color: purple;
+}
+
+div + p {
+  color: orange;
+}
