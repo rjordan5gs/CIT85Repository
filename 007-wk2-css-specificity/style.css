@@ -1,0 +1,56 @@
+/* Specificity 0, 0, 1 */
+div {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* Specificity 0, 0, 1 */
+h1 {
+  color: red;
+}
+
+/* Specificity 0, 1, 0*/
+.class {
+  color: blue;
+}
+
+/* Specificity 1, 0, 0*/
+#a-div {
+  color: green;
+}
+
+/* Specificity 1, 0, 1 */
+#a-div p {
+  font-weight: bold;
+}
+
+/* Specificity 0, 1, 1 */
+div:first-child {
+  background-color: yellow;
+}
+
+/* Specificity 0, 2, 0 */
+.class:nth-child(2) {
+  text-decoration: underline;
+}
+
+/* Specificity 0, 2, 0 */
+.class:nth-child(4) {
+  color: purple;
+}
+
+/* Specificity 1, 1, 1 */
+#a-div:last-child p {
+  font-style: italic;
+}
+
+/* Specificity 0, 0, 2 */
+h1 + div {
+  margin-top: 20px;
+}
+
+/* Specificity 1, 0, 2 */
+#a-div p:first-letter {
+  font-size: 2em;
+}
