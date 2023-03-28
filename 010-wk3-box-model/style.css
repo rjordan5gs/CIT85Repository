@@ -1,0 +1,14 @@
+.block {
+ background-color: red;
+ width: 100px;
+ height: 150px;
+ border: 2px
+}
+
+.inline {
+    background-color: cyan;
+    width: 100px;
+    width: 150px;
+    border: 4px;
+    color: yellow;
+}
