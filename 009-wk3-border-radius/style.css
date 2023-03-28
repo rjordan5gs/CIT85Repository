@@ -1,0 +1,14 @@
+.lemon {
+    width: 60px;
+    height: 80px;
+    border: 10px solid green;
+    border-radius: 50px;
+    background-color: yellow;
+    margin: 10px;
+    display: inline-block;
+    text-align: center; 
+
+}
+
+/* Was not sure if they had to actually be in a lemon shape, but I tried my
+best to make them look square and rounded.
