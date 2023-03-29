@@ -1,0 +1,54 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.one {
+    font-family: serif;
+    color: red;
+}
+
+.two {
+    font-family: sans-serif;
+    color: blue;
+}
+
+.three {
+    font-family: Sofia, sans-serif;
+    font-weight: 100;
+} /* Needs to be completed */
+
+.four {
+    color: aqua;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.five {
+    color: green;
+    letter-spacing: 2rem;
+}
+
+.six {
+    text-shadow: 2px 2px;
+}
+
+.eight {
+    text-decoration: line-through;
+}
+
+.nine {
+    text-indent: 50px;
+}
+
