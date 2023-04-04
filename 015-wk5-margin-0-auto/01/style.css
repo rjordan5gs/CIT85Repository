@@ -1,0 +1,25 @@
+html {
+    background-color: red;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 10px ridge gold;
+}
+
+#one {
+    color: yellow;
+}
+
+#two {
+    color: orange;
+}
