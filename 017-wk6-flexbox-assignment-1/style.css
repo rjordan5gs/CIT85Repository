@@ -1,0 +1,29 @@
+.div {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.box {
+    width: calc(15.66% + 2px);
+    height: 100px;
+    margin: 5px;
+    background-color: orangered;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.box:nth-child(19n) {
+    width: 35%;
+    
+}
+.box:nth-child(20n) {
+    flex-grow: 2;
+
+}
+  
