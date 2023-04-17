@@ -1,0 +1,53 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 1000px;
+    border: 5px dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 200px;
+    align-items: center;
+    font: 5em Times;
+}
+
+.a1 {
+    flex-basis: 100%;
+    background-color: red;
+}
+
+.a2 {
+    flex-basis: 60%;
+    background-color: lightblue;
+}
+
+.a3 {
+    flex-basis: 40%;
+    background-color: lightgreen;
+}
+
+.a4 {
+    background-color: yellow;
+}
+
+.a5 {
+    background-color: purple;
+}
