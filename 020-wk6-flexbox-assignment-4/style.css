@@ -1,0 +1,42 @@
+html, body, div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 700px;
+    padding: 0;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+.a, .b, .c, .d, .e {
+    width: 100%;
+    min-height: 150px;
+}
+
+.a {
+    background-color: #003476;
+    width: 60%;
+}
+
+.b {
+    background-color: #0062d2;
+    width: 40%;
+}
+
+.c {
+    background-color: #b4d2f7;
+    width: 33.33%;
+}
+
+.d {
+    background-color: #d5dfef;
+    width: 33.33%;
+}
+
+.e {
+    background-color: #dfe1e5;
+    width: 33.33%;
+}
