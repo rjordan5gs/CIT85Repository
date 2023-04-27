@@ -1,0 +1,62 @@
+/* Default styles for all screen sizes */
+html, body, main, div {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 100vh;
+    border: 3px dashed red;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+#one {
+    flex-basis: 100%;
+    background-color:tomato ;
+}
+
+#two {
+    flex-basis: 60%;
+    background-color:powderblue;
+}
+
+#three {
+    flex-basis: 40%;
+    background-color: palegreen;
+}
+
+#four {
+    background-color: yellow;
+}
+
+#five {
+    background-color: mediumpurple;
+}
+
+/* Media query for screens with a maximum width of 1200px */
+@media screen and (max-width: 1200px) {
+    div {
+        flex-basis: 100%;
+    }
+}

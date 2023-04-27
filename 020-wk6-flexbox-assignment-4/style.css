@@ -5,10 +5,10 @@ html, body, div {
 body {
     display: flex;
     flex-flow: row wrap;
+    margin: 0 auto;
     width: 700px;
     padding: 0;
     border: 5px solid red;
-    margin: 0 auto;
 }
 
 .a, .b, .c, .d, .e {
