@@ -1,0 +1,9 @@
+#adiv {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
