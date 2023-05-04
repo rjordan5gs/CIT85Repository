@@ -1,0 +1,36 @@
+#container1 {
+    background-color: yellowgreen;
+    border: 2px solid red;
+    margin-top: 2em;
+}
+
+#container2 {
+    display: flex;
+    background-color: paleturquoise;
+    border: 2px solid red;
+    margin-top: 2em;
+    overflow: auto;
+}
+
+#img1 {
+    margin: 1em;
+    height:200px;
+    width: 250px;
+    border: 1px solid red;
+    float: right;
+
+}
+
+article p {
+    overflow: auto;
+    margin-left: 2em; 
+}
+
+
+#img2 {
+    margin: 1em;
+    height:200px;
+    width: 250px;
+    border: 1px solid red;
+    float: left;
+}
