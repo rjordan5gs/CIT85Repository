@@ -1,0 +1,19 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: relative;
+    left: 50px;
+}
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+}
