@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 165vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 1em solid  red;
+}
+
+.fa-solid fa-laptop fa-beat{
+    font-size: 300px;
+}
