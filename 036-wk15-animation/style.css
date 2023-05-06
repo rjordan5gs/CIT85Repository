@@ -12,7 +12,7 @@
 @keyframes anim {
     0% {
         top: 200px;
-        left:;
+        left: 0;
     }
 
     100% {
